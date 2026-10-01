@@ -1,0 +1,50 @@
+{
+  "formatVersion": 1,
+  "modules": [
+    {
+      "id": "network-basics",
+      "name": "网络基础",
+      "description": "示例题库",
+      "days": [
+        {
+          "id": "network-day-1",
+          "title": "基础练习",
+          "questions": [
+            {
+              "id": "network-choice-1",
+              "type": "choice",
+              "content": "HTTP 默认使用的端口是？",
+              "options": ["21", "53", "80", "443"],
+              "answer": 2
+            },
+            {
+              "id": "network-multi-1",
+              "type": "multi",
+              "content": "以下哪些属于应用层协议？",
+              "options": ["HTTP", "TCP", "DNS", "IP"],
+              "answer": [0, 2]
+            },
+            {
+              "id": "network-judge-1",
+              "type": "judge",
+              "content": "HTTPS 在 HTTP 的基础上增加了 TLS/SSL 加密。",
+              "answer": true
+            },
+            {
+              "id": "network-fill-1",
+              "type": "fill",
+              "content": "IPv4 地址由 ______ 位二进制数组成。",
+              "answer": ["32"]
+            },
+            {
+              "id": "network-short-1",
+              "type": "shortAnswer",
+              "content": "请简要说明 DNS 的作用。",
+              "answer": "DNS 用于把域名解析为 IP 地址。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
