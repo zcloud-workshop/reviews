@@ -1,0 +1,6 @@
+# 复制为 android/key.properties，再填写实际值；凭据和 keystore 不得提交。
+# 相对 storeFile 路径以 android/app 为基准，推荐使用绝对路径。
+storeFile=/absolute/path/to/reviews-release.jks
+storePassword=replace-with-store-password
+keyAlias=reviews-release
+keyPassword=replace-with-key-password
